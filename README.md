@@ -1,10 +1,13 @@
 # douyin-fetch
 
-取单条抖音视频的原片与元数据，**零依赖**（只用 Node 内置 `fetch` + `crypto`，Node ≥ 20）。
+**中文** · [English](README.en.md)
+
+取单条抖音视频的原片（mp4）与元数据，**零依赖** —— 只用 Node 内置的 `fetch` 与 `crypto`（Node ≥ 20）。
 不走 yt-dlp、不读浏览器 cookie、不用第三方解析站、不起浏览器。
 
-> Fetch a single Douyin video (mp4 + metadata) with zero dependencies. It computes the
-> `x-secsdk-web-signature` header itself, so it does not need cookies, a browser, or yt-dlp.
+> Fetch a single Douyin video (mp4 + metadata) with zero dependencies, using only Node's built-in
+> `fetch` and `crypto`. It computes the `x-secsdk-web-signature` header itself, so it needs no cookies,
+> no browser and no yt-dlp.
 
 ## 为什么 yt-dlp 取不了抖音
 
