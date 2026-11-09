@@ -92,9 +92,8 @@ ffprobe -v error -show_entries format=duration \
 
 ## 文档
 
-- `docs/technical-notes.zh.md` —— 完整技术说明（接口结构、签名推导、落地流程、失败指纹、移植要点）
-- `docs/technical-notes.zh.docx` —— 同一份说明的排版版本，便于直接分发阅读
-- `SKILL.md` —— 给 agent 的技能文件
+- `docs/technical-notes.zh.md` / `.docx` —— 完整技术说明（中文；docx 是同内容的排版版）
+- `SKILL.md` —— agent 技能说明
 
 ## License
 

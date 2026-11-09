@@ -98,9 +98,7 @@ can claim this kind of task. The executable is always `douyin-fetch.js` from thi
 
 ## Docs
 
-- [docs/technical-notes.zh.md](docs/technical-notes.zh.md) — full technical write-up, **Chinese only**
-  (endpoint structure, signature derivation, implementation flow, failure fingerprints, porting notes)
-- [docs/technical-notes.zh.docx](docs/technical-notes.zh.docx) — the same write-up as a typeset 5-page document
+- [docs/technical-notes.zh.md](docs/technical-notes.zh.md) / [.docx](docs/technical-notes.zh.docx) — full write-up, Chinese only (docx = typeset version)
 - `SKILL.md` — agent skill file
 
 ## License
